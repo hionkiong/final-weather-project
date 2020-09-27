@@ -24,6 +24,7 @@ small {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 200px auto;
+  margin: 20px auto;
   width: 700px;
 }
 
@@ -123,7 +124,7 @@ small {
 }
 
 .active {
-  color: rgb(248, 245, 240);
+  color: inherit;
 }
 
 .active:hover {
@@ -203,8 +204,8 @@ small {
   color: rgb(31, 79, 147);
 }
 
-#redTheme {
-  color: rgb(251, 58, 56);
+#brownTheme {
+  color: rgb(157, 109, 34);
 }
 
 #london {

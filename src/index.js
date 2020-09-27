@@ -169,37 +169,37 @@ function displayBlueTheme(event) {
   let boxZ = document.querySelector(".z");
   boxZ.setAttribute(
     "style",
-    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+    "background-color: rgb(68, 191, 215); color:rgb(255, 236, 168)"
   );
   let boxX = document.querySelector(".x");
   boxX.setAttribute(
     "style",
-    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+    "background-color: rgb(255, 236, 168); color: rgb(68, 191, 215)"
   );
   let boxA = document.querySelector(".a");
   boxA.setAttribute(
     "style",
-    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+    "background-color: rgb(255, 236, 168); color: rgb(68, 191, 215)"
   );
   let boxB = document.querySelector(".b");
   boxB.setAttribute(
     "style",
-    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+    "background-color: rgb(255, 236, 168); color: rgb(68, 191, 215)"
   );
   let boxC = document.querySelector(".c");
   boxC.setAttribute(
     "style",
-    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+    "background-color: rgb(68, 191, 215); color:rgb(255, 236, 168)"
   );
   let boxD = document.querySelector(".d");
   boxD.setAttribute(
     "style",
-    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+    "background-color: rgb(255, 236, 168); color: rgb(68, 191, 215)"
   );
   let boxE = document.querySelector(".e");
   boxE.setAttribute(
     "style",
-    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+    "background-color: rgb(68, 191, 215); color:rgb(255, 236, 168)"
   );
 }
 
@@ -208,76 +208,76 @@ function displayPinkTheme(event) {
   let boxZ = document.querySelector(".z");
   boxZ.setAttribute(
     "style",
-    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+    "background-color: rgb(226, 43, 37); color:rgb(253, 227, 238)"
   );
   let boxX = document.querySelector(".x");
   boxX.setAttribute(
     "style",
-    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+    "background-color: rgb(253, 227, 238); color: rgb(226, 43, 37)"
   );
   let boxA = document.querySelector(".a");
   boxA.setAttribute(
     "style",
-    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+    "background-color: rgb(253, 227, 238); color: rgb(226, 43, 37)"
   );
   let boxB = document.querySelector(".b");
   boxB.setAttribute(
     "style",
-    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+    "background-color: rgb(253, 227, 238); color: rgb(226, 43, 37)"
   );
   let boxC = document.querySelector(".c");
   boxC.setAttribute(
     "style",
-    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+    "background-color: rgb(226, 43, 37); color:rgb(253, 227, 238)"
   );
   let boxD = document.querySelector(".d");
   boxD.setAttribute(
     "style",
-    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+    "background-color: rgb(253, 227, 238); color: rgb(226, 43, 37)"
   );
   let boxE = document.querySelector(".e");
   boxE.setAttribute(
     "style",
-    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+    "background-color: rgb(226, 43, 37); color:rgb(253, 227, 238)"
   );
 }
 
-function displayRedTheme(event) {
+function displayBrownTheme(event) {
   event.preventDefault();
   let boxZ = document.querySelector(".z");
   boxZ.setAttribute(
     "style",
-    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+    "background-color: rgb(173, 131, 81); color: rgb(249, 245, 237)"
   );
   let boxX = document.querySelector(".x");
   boxX.setAttribute(
     "style",
-    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+    "background-color: rgb(249, 245, 237); color: rgb(173, 131, 81);"
   );
   let boxA = document.querySelector(".a");
   boxA.setAttribute(
     "style",
-    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+    "background-color: rgb(249, 245, 237); color: rgb(173, 131, 81);"
   );
   let boxB = document.querySelector(".b");
   boxB.setAttribute(
     "style",
-    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+    "background-color: rgb(249, 245, 237); color: rgb(173, 131, 81);"
   );
   let boxC = document.querySelector(".c");
   boxC.setAttribute(
     "style",
-    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+    "background-color: rgb(173, 131, 81); color: rgb(249, 245, 237)"
   );
   let boxD = document.querySelector(".d");
   boxD.setAttribute(
     "style",
-    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+    "background-color: rgb(249, 245, 237); color: rgb(173, 131, 81);"
   );
   let boxE = document.querySelector(".e");
   boxE.setAttribute(
     "style",
-    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+    "background-color: rgb(173, 131, 81); color: rgb(249, 245, 237)"
   );
 }
 
@@ -373,8 +373,8 @@ changeBlueElement.addEventListener("click", displayBlueTheme);
 let changePinkElement = document.querySelector("#pinkTheme");
 changePinkElement.addEventListener("click", displayPinkTheme);
 
-let changeRedElement = document.querySelector("#redTheme");
-changeRedElement.addEventListener("click", displayRedTheme);
+let changeBrownElement = document.querySelector("#brownTheme");
+changeBrownElement.addEventListener("click", displayBrownTheme);
 
 let changeClassicElement = document.querySelector("#classicTheme");
 changeClassicElement.addEventListener("click", displayClassicTheme);
