@@ -21,7 +21,8 @@ li:first-letter {
   grid-gap: 10px;
   grid-template-columns: 200px auto;
   max-width: 800px;
-  margin-top: 20px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .box {
@@ -96,6 +97,16 @@ li:first-letter {
   font-size: 25px;
   position: relative;
   top: -20px;
+}
+
+.active {
+  color: rgb(219, 84, 70);
+}
+
+.active:hover {
+  text-decoration: none;
+  cursor: default;
+  color: rgb(219, 84, 70);
 }
 
 .current {
