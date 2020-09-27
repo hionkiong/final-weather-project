@@ -299,6 +299,71 @@ function displayClassicTheme(event) {
   boxE.setAttribute("style", "all: revert");
 }
 
+function displayLondon(event) {
+  event.preventDefault();
+  let apiKey = "d20ee31d1c5fc8d0a74be4a2ab93bf1f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+
+  apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=London&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayMadrid(event) {
+  event.preventDefault();
+  let apiKey = "d20ee31d1c5fc8d0a74be4a2ab93bf1f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+
+  apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=Madrid&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displaySeoul(event) {
+  event.preventDefault();
+  let apiKey = "d20ee31d1c5fc8d0a74be4a2ab93bf1f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+
+  apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=Seoul&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayTokyo(event) {
+  event.preventDefault();
+  let apiKey = "d20ee31d1c5fc8d0a74be4a2ab93bf1f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+
+  apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=Tokyo&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayParis(event) {
+  event.preventDefault();
+  let apiKey = "d20ee31d1c5fc8d0a74be4a2ab93bf1f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+
+  apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=Paris&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+let londonElement = document.querySelector("#london");
+londonElement.addEventListener("click", displayLondon);
+
+let madridElement = document.querySelector("#madrid");
+madridElement.addEventListener("click", displayMadrid);
+
+let seoulElement = document.querySelector("#seoul");
+seoulElement.addEventListener("click", displaySeoul);
+
+let tokyoElement = document.querySelector("#tokyo");
+tokyoElement.addEventListener("click", displayTokyo);
+
+let parisElement = document.querySelector("#paris");
+parisElement.addEventListener("click", displayParis);
+
 let changeGreenElement = document.querySelector("#limeTheme");
 changeGreenElement.addEventListener("click", displayLimeTheme);
 
