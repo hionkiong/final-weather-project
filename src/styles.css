@@ -16,6 +16,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+small {
+  grid-column: 1 /4;
+}
+
 .wrapper {
   display: grid;
   grid-gap: 10px;
@@ -41,6 +45,11 @@ li:first-letter {
   text-align: center;
   font-weight: bolder;
   padding: 10px;
+}
+
+.x {
+  grid-column: 1;
+  grid-row: 6 / 8;
 }
 
 .a {
@@ -92,9 +101,15 @@ li:first-letter {
 }
 
 .cities {
-  position: relative;
+  margin: 0;
+  padding: 0 0 10px 0;
   list-style-type: none;
-  left: -40px;
+}
+
+.themes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .date {
@@ -114,10 +129,6 @@ li:first-letter {
 .active:hover {
   text-decoration: none;
   cursor: default;
-  color: rgb(248, 245, 240);
-}
-
-.temperature {
   color: rgb(248, 245, 240);
 }
 
@@ -174,4 +185,24 @@ li:first-letter {
   margin: 0 auto;
   height: 50px;
   width: 50px;
+}
+
+#limeTheme {
+  color: rgb(4, 113, 48);
+}
+
+#blueTheme {
+  color: rgb(68, 191, 215);
+}
+
+#pinkTheme {
+  color: rgb(247, 122, 167);
+}
+
+#classicTheme {
+  color: rgb(31, 79, 147);
+}
+
+#redTheme {
+  color: rgb(251, 58, 56);
 }

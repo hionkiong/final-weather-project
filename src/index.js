@@ -125,6 +125,195 @@ function displayFahrenheitTemperature(event) {
   fahrenheitLinkElement.classList.add("active");
 }
 
+function displayLimeTheme(event) {
+  event.preventDefault();
+  let boxZ = document.querySelector(".z");
+  boxZ.setAttribute(
+    "style",
+    "background-color: rgb(4, 113, 48); color: rgb(231, 240, 235)"
+  );
+  let boxX = document.querySelector(".x");
+  boxX.setAttribute(
+    "style",
+    "background-color: rgb(231, 240, 235); color:rgb(4, 113, 48)"
+  );
+  let boxA = document.querySelector(".a");
+  boxA.setAttribute(
+    "style",
+    "background-color: rgb(231, 240, 235); color:rgb(4, 113, 48)"
+  );
+  let boxB = document.querySelector(".b");
+  boxB.setAttribute(
+    "style",
+    "background-color: rgb(231, 240, 235); color:rgb(4, 113, 48)"
+  );
+  let boxC = document.querySelector(".c");
+  boxC.setAttribute(
+    "style",
+    "background-color: rgb(4, 113, 48); color: rgb(231, 240, 235)"
+  );
+  let boxD = document.querySelector(".d");
+  boxD.setAttribute(
+    "style",
+    "background-color: rgb(231, 240, 235); color:rgb(4, 113, 48)"
+  );
+  let boxE = document.querySelector(".e");
+  boxE.setAttribute(
+    "style",
+    "background-color: rgb(4, 113, 48); color: rgb(231, 240, 235)"
+  );
+}
+
+function displayBlueTheme(event) {
+  event.preventDefault();
+  let boxZ = document.querySelector(".z");
+  boxZ.setAttribute(
+    "style",
+    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+  );
+  let boxX = document.querySelector(".x");
+  boxX.setAttribute(
+    "style",
+    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+  );
+  let boxA = document.querySelector(".a");
+  boxA.setAttribute(
+    "style",
+    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+  );
+  let boxB = document.querySelector(".b");
+  boxB.setAttribute(
+    "style",
+    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+  );
+  let boxC = document.querySelector(".c");
+  boxC.setAttribute(
+    "style",
+    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+  );
+  let boxD = document.querySelector(".d");
+  boxD.setAttribute(
+    "style",
+    "background-color: rgb(242, 253, 255); color: rgb(68, 191, 215)"
+  );
+  let boxE = document.querySelector(".e");
+  boxE.setAttribute(
+    "style",
+    "background-color: rgb(68, 191, 215); color:rgb(242, 253, 255)"
+  );
+}
+
+function displayPinkTheme(event) {
+  event.preventDefault();
+  let boxZ = document.querySelector(".z");
+  boxZ.setAttribute(
+    "style",
+    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+  );
+  let boxX = document.querySelector(".x");
+  boxX.setAttribute(
+    "style",
+    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+  );
+  let boxA = document.querySelector(".a");
+  boxA.setAttribute(
+    "style",
+    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+  );
+  let boxB = document.querySelector(".b");
+  boxB.setAttribute(
+    "style",
+    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+  );
+  let boxC = document.querySelector(".c");
+  boxC.setAttribute(
+    "style",
+    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+  );
+  let boxD = document.querySelector(".d");
+  boxD.setAttribute(
+    "style",
+    "background-color: rgb(252, 237, 237); color: rgb(247, 122, 167)"
+  );
+  let boxE = document.querySelector(".e");
+  boxE.setAttribute(
+    "style",
+    "background-color: rgb(247, 122, 167); color:rgb(252, 237, 237)"
+  );
+}
+
+function displayRedTheme(event) {
+  event.preventDefault();
+  let boxZ = document.querySelector(".z");
+  boxZ.setAttribute(
+    "style",
+    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+  );
+  let boxX = document.querySelector(".x");
+  boxX.setAttribute(
+    "style",
+    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+  );
+  let boxA = document.querySelector(".a");
+  boxA.setAttribute(
+    "style",
+    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+  );
+  let boxB = document.querySelector(".b");
+  boxB.setAttribute(
+    "style",
+    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+  );
+  let boxC = document.querySelector(".c");
+  boxC.setAttribute(
+    "style",
+    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+  );
+  let boxD = document.querySelector(".d");
+  boxD.setAttribute(
+    "style",
+    "background-color: rgb(255, 242, 242); color: rgb(251, 58, 56)"
+  );
+  let boxE = document.querySelector(".e");
+  boxE.setAttribute(
+    "style",
+    "background-color: rgb(251, 58, 56); color: rgb(255, 242, 242)"
+  );
+}
+
+function displayClassicTheme(event) {
+  event.preventDefault();
+  let boxZ = document.querySelector(".z");
+  boxZ.setAttribute("style", "all: revert");
+  let boxX = document.querySelector(".x");
+  boxX.setAttribute("style", "all: revert");
+  let boxA = document.querySelector(".a");
+  boxA.setAttribute("style", "all: revert");
+  let boxB = document.querySelector(".b");
+  boxB.setAttribute("style", "all: revert");
+  let boxC = document.querySelector(".c");
+  boxC.setAttribute("style", "all: revert");
+  let boxD = document.querySelector(".d");
+  boxD.setAttribute("style", "all: revert");
+  let boxE = document.querySelector(".e");
+  boxE.setAttribute("style", "all: revert");
+}
+
+let changeGreenElement = document.querySelector("#limeTheme");
+changeGreenElement.addEventListener("click", displayLimeTheme);
+
+let changeBlueElement = document.querySelector("#blueTheme");
+changeBlueElement.addEventListener("click", displayBlueTheme);
+
+let changePinkElement = document.querySelector("#pinkTheme");
+changePinkElement.addEventListener("click", displayPinkTheme);
+
+let changeRedElement = document.querySelector("#redTheme");
+changeRedElement.addEventListener("click", displayRedTheme);
+
+let changeClassicElement = document.querySelector("#classicTheme");
+changeClassicElement.addEventListener("click", displayClassicTheme);
+
 let toCurrentLocation = document.querySelector("#currentLocationButton");
 toCurrentLocation.addEventListener("click", getCurrentPosition);
 
