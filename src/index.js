@@ -25,11 +25,21 @@ function showTemperature(response) {
   let currentTemperature = document.querySelector(".temperature");
   let location = response.data.name;
   let currentLocation = document.querySelector(".city");
+  let currentEmojiElement = document.querySelector("#currentEmoji");
 
   celsiusTemperature = Math.round(response.data.main.temp);
 
   currentTemperature.innerHTML = `${temperature}`;
   currentLocation.innerHTML = `${location}`;
+  currentEmojiElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  currentEmojiElement.setAttribute(
+    "alt",
+    `${response.data.weather[0].description}`
+  );
+
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
