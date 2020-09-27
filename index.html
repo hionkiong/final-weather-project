@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeatherApp</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fd9b1bc898.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="box a">
+          <strong> Locations </strong>
+          <ul class="cities">
+            <li>
+              London
+            </li>
+            <li>
+              Madrid
+            </li>
+            <li>
+              Seoul
+            </li>
+            <li>
+              Tokyo
+            </li>
+            <li>
+              Paris
+            </li>
+            <li>
+              Milan
+            </li>
+          </ul>
+          <button id="currentLocationButton"> Current Location </button>
+        </div>
+        <div class="box b">
+          <form id="search-location">
+          <input
+            class="box2 form-control"
+            id="search-location-input"
+            type="text"
+            placeholder="Search location..."
+            autocomplete="off"
+            autofocus="on"
+          >
+          <input type="submit" value="Search" id="searchButton">
+          </form>
+          </form>
+        </div>
+        <div class="box c">
+          <div class="row row-cols-2">
+            <div class="col md-6">
+              <div class="city">
+              </div>
+              <div class="date">
+              </div>
+              <div class="currentTemperature">
+                <span class="temperature"></span>
+                <span class="units">
+              <a href="#" id="celcius-link">°C</a>
+              |
+              <a href="#" id="fahrenheit-link">°F</a>
+                </span>
+              </div>
+            </div>
+            <div class="col md-6 currentemoji">
+              <i class="current fas fa-sun"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box d details">
+          <ul class=weatherDetails>
+            <li id="description"></li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>m/sec</li>
+          </ul>
+        </div>
+        <div class="box e">
+          <div class="row row-cols-5">
+            <div class="col">Mon
+            <br/>
+            <i class="fas fa-sun"></i>
+            <br/>
+            23°
+            </div>
+            <div class="col">Tue
+              <br />
+              <i class="fas fa-cloud-sun"></i>
+              <br/>
+              21°
+            </div>
+            <div class="col">Wed
+              <br />
+              <i class="fas fa-cloud-rain"></i>
+              <br/>
+              18°
+            </div>
+            <div class="col">Thu
+              <br />
+              <i class="fas fa-cloud-sun-rain"></i>
+              <br/>
+              20°
+            </div>
+            <div class="col">Fri
+              <br/>
+              <i class="fas fa-cloud-sun"></i>
+              <br/>
+              22°
+            </div>
+          </div>
+        </div>
+        <small><a href="https://github.com/hionkiong/Weather-App-Project" target="_blank">Open-source code</a> by Hyunkyung Choi</small>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
