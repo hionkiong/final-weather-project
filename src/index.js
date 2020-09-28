@@ -283,19 +283,19 @@ function displayBrownTheme(event) {
 function displayClassicTheme(event) {
   event.preventDefault();
   let boxZ = document.querySelector(".z");
-  boxZ.setAttribute("style", "all: revert");
+  boxZ.setAttribute("style", "background-color: revert; color: revert");
   let boxX = document.querySelector(".x");
-  boxX.setAttribute("style", "all: revert");
+  boxX.setAttribute("style", "background-color: revert; color: revert");
   let boxA = document.querySelector(".a");
-  boxA.setAttribute("style", "all: revert");
+  boxA.setAttribute("style", "background-color: revert; color: revert");
   let boxB = document.querySelector(".b");
-  boxB.setAttribute("style", "all: revert");
+  boxB.setAttribute("style", "background-color: revert; color: revert");
   let boxC = document.querySelector(".c");
-  boxC.setAttribute("style", "all: revert");
+  boxC.setAttribute("style", "background-color: revert; color: revert");
   let boxD = document.querySelector(".d");
-  boxD.setAttribute("style", "all: revert");
+  boxD.setAttribute("style", "background-color: revert; color: revert");
   let boxE = document.querySelector(".e");
-  boxE.setAttribute("style", "all: revert");
+  boxE.setAttribute("style", "background-color: revert; color: revert");
 }
 
 function displayLondon(event) {
