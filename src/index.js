@@ -283,19 +283,40 @@ function displayBrownTheme(event) {
 function displayClassicTheme(event) {
   event.preventDefault();
   let boxZ = document.querySelector(".z");
-  boxZ.setAttribute("style", "background-color: revert; color: revert");
+  boxZ.setAttribute(
+    "style",
+    "background-color: rgb(31, 79, 147); color: rgb(248, 245, 240)"
+  );
   let boxX = document.querySelector(".x");
-  boxX.setAttribute("style", "background-color: revert; color: revert");
+  boxX.setAttribute(
+    "style",
+    "background-color: rgb(248, 245, 240); color: rgb(31, 79, 147)"
+  );
   let boxA = document.querySelector(".a");
-  boxA.setAttribute("style", "background-color: revert; color: revert");
+  boxA.setAttribute(
+    "style",
+    "background-color: rgb(248, 245, 240); color: rgb(31, 79, 147)"
+  );
   let boxB = document.querySelector(".b");
-  boxB.setAttribute("style", "background-color: revert; color: revert");
+  boxB.setAttribute(
+    "style",
+    "background-color: rgb(248, 245, 240); color: rgb(31, 79, 147)"
+  );
   let boxC = document.querySelector(".c");
-  boxC.setAttribute("style", "background-color: revert; color: revert");
+  boxC.setAttribute(
+    "style",
+    "background-color: rgb(31, 79, 147); color: rgb(248, 245, 240)"
+  );
   let boxD = document.querySelector(".d");
-  boxD.setAttribute("style", "background-color: revert; color: revert");
+  boxD.setAttribute(
+    "style",
+    "background-color: rgb(248, 245, 240); color: rgb(31, 79, 147)"
+  );
   let boxE = document.querySelector(".e");
-  boxE.setAttribute("style", "background-color: revert; color: revert");
+  boxE.setAttribute(
+    "style",
+    "background-color: rgb(31, 79, 147); color: rgb(248, 245, 240)"
+  );
 }
 
 function displayLondon(event) {
